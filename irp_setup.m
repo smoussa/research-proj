@@ -1,5 +1,4 @@
 % % setup MatConvNet in MATLAB
-% run matconvnet/matlab/vl_setupnn
 
 % % download a pre−trained CNN from the web
 % % urlwrite ( ...
@@ -60,9 +59,10 @@ function irp_setup()
 %	Setup Options
 % -------------------------------------------------------------------------
 
-run(fullfile(fileparts(mfilename('fullpath')), '..', 'matlab', 'vl_setupnn.m'));
+run matconvnet/matlab/vl_setupnn
+run(fullfile(fileparts(mfilename('fullpath')), 'matconvnet', 'matlab', 'vl_setupnn.m'));
 
-opts.dataDir = fullfile('data','ILSVRC2012');
+opts.dataDir = fullfile('data','ILSVRC2013_DET_val/');
 opts.modelType = 'dropout'; % bnorm or dropout
 opts.expDir = fullfile('data', sprintf('imagenet12-%s', opts.modelType));
 
