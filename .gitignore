@@ -1,5 +1,5 @@
 /data
 imagenet-vgg*
-*.mat*
+*.mat
 jpeg-6b/
 *nohup.out

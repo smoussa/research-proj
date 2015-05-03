@@ -6,4 +6,4 @@ scores = squeeze(gather(res(end).x));
 [bestScore, best] = max(scores);
 figure(1); clf; imagesc(im);
 title(sprintf('%s (%d), score %.3f', net.classes.description{best}, best, bestScore));
-savefig('figure.eps');
+% savefig('figure.fig');
