@@ -1,1 +1,5 @@
-imagenet-vgg-s.mat
+/data
+imagenet-vgg*
+*.mat
+jpeg-6b/
+*nohup.out
