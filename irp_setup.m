@@ -34,12 +34,10 @@ function irp_setup()
 		   ILSVRC2012_devkit.tar
 
 	()	Within this folder, create the following hierarchy:
-			data/images/train/ : content of ILSVRC2012_img_train.tar
-			data/images/val/ : content of ILSVRC2012_img_val.tar
-			data/images/test/ : content of ILSVRC2012_img_test.tar
-			data/ILSVRC2012_devkit : content of ILSVRC2012_devkit.tar
-	
-	()	Save the downloaded images into data/imagenet12
+			data/ILSVRC2012/images/train/ : content of ILSVRC2012_img_train.tar
+			data/ILSVRC2012/images/val/ : content of ILSVRC2012_img_val.tar
+			data/ILSVRC2012/images/test/ : content of ILSVRC2012_img_test.tar
+			data/ILSVRC2012/ILSVRC2012_devkit : content of ILSVRC2012_devkit.tar
 	
 	()	Preprocess all images to have height 256 pixels using the
 		utils/preprocess-imagenet.sh script.
@@ -62,9 +60,9 @@ function irp_setup()
 run matconvnet/matlab/vl_setupnn
 run(fullfile(fileparts(mfilename('fullpath')), 'matconvnet', 'matlab', 'vl_setupnn.m'));
 
-opts.dataDir = fullfile('data','ILSVRC2013_DET_val/');
+opts.dataDir = fullfile('data','ILSVRC2013');
 opts.modelType = 'dropout'; % bnorm or dropout
-opts.expDir = fullfile('data', sprintf('imagenet12-%s', opts.modelType));
+opts.expDir = fullfile('data', sprintf('imagenet13-%s', opts.modelType));
 
 switch opts.modelType
 	case 'dropout', opts.train.learningRate = logspace(-2, -4, 75);
