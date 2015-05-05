@@ -57,10 +57,12 @@ function irp_setup()
 %	Setup Options
 % -------------------------------------------------------------------------
 
+addpath(genpath('matconvnet'));
+
 run matconvnet/matlab/vl_setupnn
 run(fullfile(fileparts(mfilename('fullpath')), 'matconvnet', 'matlab', 'vl_setupnn.m'));
 
-opts.dataDir = fullfile('data','ILSVRC2013');
+opts.dataDir = fullfile('data','processed','ILSVRC2013');
 opts.modelType = 'dropout'; % bnorm or dropout
 opts.expDir = fullfile('data', sprintf('imagenet13-%s', opts.modelType));
 
