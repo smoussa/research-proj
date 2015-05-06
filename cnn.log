@@ -1,0 +1,43 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> {Attempt to execute SCRIPT varargin as a function:
+/usr/local/MATLAB/R2014a/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> >> {Attempt to execute SCRIPT varargin as a function:
+/usr/local/MATLAB/R2014a/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> {Attempt to execute SCRIPT varargin as a function:
+/usr/local/MATLAB/R2014a/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> >> >> >> >> >> >> >> >> {Attempt to execute SCRIPT varargin as a function:
+/usr/local/MATLAB/R2014a/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> >> >> >> {Undefined function 'cnn_cifar_init' for input arguments of type 'struct'.
+} 
+>> >> >> >> >> >> >> >> {Undefined function or variable 'net'.
+} 
+>> >> >>  function [im, labels] = getBatch(imdb, batch)
+ |
+{Error: Function definitions are not permitted in this context.
+} 
+>> >> {Error using batch (line 118)
+Not enough input arguments for batch.
+} 
+>> {Error using batch (line 118)
+Not enough input arguments for batch.
+} 
+>> {Undefined function or variable 'im'.
+} 
+>> >> >>  function imdb = getCifarImdb(opts)
+ |
+{Error: Function definitions are not permitted in this context.
+} 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
