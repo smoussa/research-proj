@@ -3,6 +3,7 @@ function [net, info] = irp_cifar(varargin)
 %    The demo includes two standard model: LeNet and Network in
 %    Network (NIN). Use the 'modelType' option to choose one.
 
+addpath(genpath('matconvnet'));
 run(fullfile(fileparts(mfilename('fullpath')), ...
   'matconvnet', 'matlab', 'vl_setupnn.m')) ;
 

@@ -1,0 +1,63 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                   R2014b (8.4.0.150421) 64-bit (maci64)
+                             September 15, 2014
+
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/CAE] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/CNN] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/data] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/DBN] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/NN] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/SAE] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/util] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master/tests] 
+[Warning: Name is nonexistent or not a directory:
+/Users/smoussa/Downloads/DeepLearnToolbox-master] 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> {Attempt to execute SCRIPT varargin as a function:
+/Applications/MATLAB/MATLAB_R2014b.app/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> >> {Attempt to execute SCRIPT varargin as a function:
+/Applications/MATLAB/MATLAB_R2014b.app/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> {Attempt to execute SCRIPT varargin as a function:
+/Applications/MATLAB/MATLAB_R2014b.app/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> >> >> >> >> >> >> >> >> {Attempt to execute SCRIPT varargin as a function:
+/Applications/MATLAB/MATLAB_R2014b.app/toolbox/matlab/lang/varargin.m
+} 
+>> >> >> >> >> >> {Undefined function 'cnn_cifar_init' for input arguments of type 'struct'.
+} 
+>> >> {Undefined function 'getCifarImdb' for input arguments of type 'struct'.
+} 
+>> >> >> >> >> >> {Undefined function or variable 'net'.
+} 
+>> >> >>  function [im, labels] = getBatch(imdb, batch)
+ |
+{Error: Function definitions are not permitted in this context.
+} 
+>> >> {Error using batch (line 123)
+Not enough input arguments for batch.
+} 
+>> {Error using batch (line 123)
+Not enough input arguments for batch.
+} 
+>> {Undefined function or variable 'im'.
+} 
+>> >> >>  function imdb = getCifarImdb(opts)
+ |
+{Error: Function definitions are not permitted in this context.
+} 
+>> >> >> >> >> >> >> >> downloading http://www.cs.toronto.edu/~kriz/cifar-10-matlab.tar.gz
