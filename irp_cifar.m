@@ -1,4 +1,4 @@
-%function [net, info] = irp_cifar(varargin)
+function [net, info] = irp_cifar(varargin)
 % CNN_CIFAR   Demonstrates MatConvNet on CIFAR-10
 %    The demo includes two standard model: LeNet and Network in
 %    Network (NIN). Use the 'modelType' option to choose one.
@@ -32,7 +32,7 @@ opts.whitenData = true ;
 opts.contrastNormalization = true ;
 opts.train.batchSize = 100 ;
 opts.numEpochs = 1 ;
-opts.train.continue = true ;
+opts.train.continue = false ;
 opts.train.gpus = [] ;
 opts.train.expDir = opts.expDir ;
 opts = vl_argparse(opts, varargin) ;

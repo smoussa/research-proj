@@ -1,5 +1,5 @@
-data
 !data/cifar-*
+data
 imagenet-vgg*
 *.mat
 jpeg-6b/
